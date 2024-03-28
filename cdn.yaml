@@ -8,7 +8,7 @@ data:
       - name: block-xss
         when:
           reqProperty: tier
-           equals: "publish"
+          equals: "publish"
          action:
            type: block
            wafFlags:
